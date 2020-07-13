@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { NavComponent } from './ui/nav/nav.component';
+import { AutoCompleteComponent } from './ui/auto-complete/auto-complete.component';
+import { ThatSweetAlertComponent } from './ui/that-sweet-alert/that-sweet-alert.component';
+import { HomeComponent } from './ui/home/home.component';
 
 
 @NgModule({
@@ -14,6 +17,9 @@ import { NavComponent } from './ui/nav/nav.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
+    AutoCompleteComponent,
+    ThatSweetAlertComponent,
+    HomeComponent,
 
   ],
   imports: [
