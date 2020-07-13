@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LearnRxJs"
+    }
+  },
+  "defaultProject": "LearnRxJs",
+  "cli": {
+    "analytics": "f26ccbe0-9e73-4b90-aab9-182f4607a046"
+  }
 }
