@@ -1,5 +1,11 @@
 <header>
   <nav>
-    <div class="headSection"></div>
+    <div class="headSection">
+      <a [routerLink]="['/']" class="btn" routerLinkActive="router-link-active" >Home</a>
+      <a [routerLink]="['/sweet']" class="btn btn-info" routerLinkActive="router-link-active" >That Sweet Alert</a>
+      <a [routerLink]="['/rxoperators']" class="btn btn-default" routerLinkActive="router-link-active">RxJS Operators</a>
+      <a [routerLink]="['/autocomplete']" class="btn btn-danger" routerLinkActive="router-link-active">Auto
+        Completion</a>
+    </div>
   </nav>
 </header>
